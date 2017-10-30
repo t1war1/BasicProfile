@@ -11,6 +11,21 @@
             font-family:"Times New Roman", Georgia, Serif ;
             font-size: 20px;
         }
+        .outerbar{
+            width: 90%;
+            height: 30px;
+            border-radius: 20px;
+            border-style: solid;
+            border-color: dodgerblue;
+        }
+        .innerbar{
+            background-color: dodgerblue;
+            height: 26px;
+            color: white;
+            border-radius: 20px;
+            text-align: center;
+            font-size: 20px;
+        }
         @keyframes background {
             0%{
                 background-color: mediumpurple;
@@ -38,15 +53,52 @@
 </head>
 <body>
     <div id="big" class="container-fluid">
-        <div class="row">
-            <div class="col-sm col-md-4 m-3 p-0" style="background-color: white; ">
+        <div class="row justify-content-lg-around">
+            <div class="col-sm col-md-4 m-3 p-0 bg-white" >
                 <img id="me" src="gaurav.jpg" class="img-fluid"  alt="Responsive image">
                 <ul class="pl-2" style="list-style-type: none">
                     <li class="p-1"><i class="fa fa-briefcase" aria-hidden="true"></i> Student</li>
                     <li class="p-1" ><i class="fa fa-home" aria-hidden="true"></i> Shalimar Bagh, Delhi</li>
-                    <li class="p-1"><i class="fa fa-university" aria-hidden="true"></i>Delhi Technological University</li>
-                    <li class="p-1"><i class="fa fa-envelope" aria-hidden="true"></i>tiwarigaurav1998gmail.com</li>
+                    <li class="p-1"><i class="fa fa-university" aria-hidden="true"></i> Delhi Technological University</li>
+                    <li class="p-1"><i class="fa fa-envelope" aria-hidden="true"></i>  tiwarigaurav1998gmail.com</li>
                 </ul>
+            </div>
+            <div class="col-sm col-md-7 m-3 justify-content-around">
+                <div class="row bg-white" >
+                <p class="mt-2 ml-3" style="color: #007bff; font-weight: bold"><i class="fa fa-code mr-2" aria-hidden="true" style="color: black"></i>SKILLS</p>
+                    <div class="col-12">
+                <ul class="mt-2 ml-0">
+                    <li class="mb-1">Java
+                        <br>
+                        <div class="outerbar" style="margin-top: 15px">
+                            <div class="innerbar" style="width: 40%;">40%</div>
+                        </div>
+                    </li>
+                    <li class="mb-1">C++
+                        <br>
+                        <div class="outerbar" style="margin-top: 15px">
+                            <div class="innerbar" style="width: 40%;">40%</div>
+                        </div>
+                    </li>
+                    <li class="mb-1">Front-end Web development
+                        <br>
+                        <div class="outerbar" style="margin-top: 15px">
+                            <div class="innerbar" style="width: 40%;">40%</div>
+                        </div>
+                    </li>
+                    <li class="mb-1">Back-end Web Development
+                        <br>
+                        <div class="outerbar" style="margin-top: 15px">
+                            <div class="innerbar" style="width: 40%;">40%</div>
+                        </div>
+                    </li>
+                </ul>
+                    </div>
+                </div>
+                <div class="row mt-2 bg-white">
+                    <p class="mt-2 ml-3" style="color: #007bff; font-weight: bold"><i class="fa fa-tags mr-2" style="color: black" aria-hidden="true"></i>HOBBIES</p>
+
+                </div>
             </div>
         </div>
     </div>
