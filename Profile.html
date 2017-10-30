@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Profile</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="bootstrap.css">
+    <style>
+        body{
+            font-family:"Times New Roman", Georgia, Serif ;
+            font-size: 20px;
+        }
+        @keyframes background {
+            0%{
+                background-color: mediumpurple;
+            }
+            25%{
+                background-color: lightpink;
+            }
+            50%{
+                background-color:lightsalmon ;
+            }
+            75%{
+                background-color: aquamarine;
+            }
+            100%{
+                background-color: palegreen;
+            }
+        }
+        #big{
+            animation-name: background;
+            animation-iteration-count: infinite;
+            animation-duration: 6s;
+            animation-timing-function: linear;
+        }
+    </style>
+</head>
+<body>
+    <div id="big" class="container-fluid">
+        <div class="row">
+            <div class="col-sm col-md-4 m-3 p-0" style="background-color: white; ">
+                <img id="me" src="gaurav.jpg" class="img-fluid"  alt="Responsive image">
+                <ul class="pl-2" style="list-style-type: none">
+                    <li class="p-1"><i class="fa fa-briefcase" aria-hidden="true"></i> Student</li>
+                    <li class="p-1" ><i class="fa fa-home" aria-hidden="true"></i> Shalimar Bagh, Delhi</li>
+                    <li class="p-1"><i class="fa fa-university" aria-hidden="true"></i>Delhi Technological University</li>
+                    <li class="p-1"><i class="fa fa-envelope" aria-hidden="true"></i>tiwarigaurav1998gmail.com</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<script src="jquery-3.2.1.js"></script>
+<script src="bootstrap.js"></script>
+</body>
+</html>
