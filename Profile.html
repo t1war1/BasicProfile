@@ -50,6 +50,49 @@
             animation-duration: 6s;
             animation-timing-function: linear;
         }
+        @keyframes java {
+            0%{
+                width:0%;
+            }
+            100%{
+                width:60%;
+            }
+        }
+        @keyframes c {
+            0%{
+                width:0%;
+            }
+            100%{
+                width:40%;
+            }
+        }@keyframes front {
+             0%{
+                 width:0%;
+             }
+             100%{
+                 width:80%;
+             }
+         }
+        @keyframes back{
+            0%{
+                width:0%;
+            }
+            100%{
+                width:50%;
+            }
+        }
+        .anijava{
+            animation: java 1s linear 1;
+        }
+        .anic{
+            animation: c 1s linear 1;
+        }
+        .anihtml{
+            animation: front 1s linear 1;
+        }
+        .anicss{
+            animation: back 1s linear 1;
+        }
     </style>
 </head>
 <body>
@@ -72,25 +115,25 @@
                     <li class="mb-1">Java
                         <br>
                         <div class="outerbar" style="margin-top: 15px">
-                            <div class="innerbar" style="width: 40%;">40%</div>
+                            <div class="innerbar anijava" style="width: 60%;">60%</div>
                         </div>
                     </li>
                     <li class="mb-1">C++
                         <br>
                         <div class="outerbar" style="margin-top: 15px">
-                            <div class="innerbar" style="width: 40%;">40%</div>
+                            <div class="innerbar anic" style="width: 40%;">40%</div>
                         </div>
                     </li>
                     <li class="mb-1">Front-end Web development
                         <br>
                         <div class="outerbar" style="margin-top: 15px">
-                            <div class="innerbar" style="width: 40%;">40%</div>
+                            <div class="innerbar anihtml" style="width: 80%;">80%</div>
                         </div>
                     </li>
                     <li class="mb-1">Back-end Web Development
                         <br>
                         <div class="outerbar" style="margin-top: 15px">
-                            <div class="innerbar" style="width: 40%;">40%</div>
+                            <div class="innerbar anicss" style="width: 50%;">50%</div>
                         </div>
                     </li>
                 </ul>
